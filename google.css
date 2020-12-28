@@ -182,7 +182,8 @@ a:visited {
 .thi-sec-footer {
     font-size: 15px;
     text-align: left;
-    color: rgba(0,0,0,.54);;
+    color: rgba(0,0,0,.54);
+    padding-left: 27px;
 }
 
 .footer-a {
