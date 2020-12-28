@@ -78,4 +78,33 @@ body,html {
     padding-right: 15px;
 }
 
+.sec-section {
+    display: block;
+    font-size: small;
+    color: #202124;
+    z-index: 0;
+    height: 70px;
+    padding-top: 18px;
+    top: 53px;
+}
 
+.sec-fir-section {
+    display: block;
+    text-align: -webkit-center;
+}
+
+.section-btn {
+    background-image: -webkit-linear-gradient(top, #f8f9fa, #f8f9fa);
+    background-color: #f8f9fa;
+    border: 1px solid white;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin: 11px, 4px;
+    padding: 0 16px;
+    line-height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+}
