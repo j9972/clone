@@ -27,7 +27,7 @@ body,html {
     text-align: center;
     padding-top: 5%;
 }
-/*git 에러 고치는중2*/
+
 #GoogleLogo {
     width: 450px;
     height: 250px;
@@ -55,6 +55,7 @@ body,html {
 #searching_box {
     display: inline-block;
     width: 510px;
+    height: 44px;
 }
 
 #searching_box_input {
@@ -62,8 +63,9 @@ body,html {
     outline: none; */
     display: flex;
     margin: 0;
-    width: 510px;
-    height: 100px;
+    width: 500px;
+    height: 40px;
+    /* padding-left: 10px; */
 }
 
 #microphone {
