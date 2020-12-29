@@ -153,20 +153,7 @@ a:visited {
     font-size: 14px;
     margin-left: -27px;
     line-height: 40px;
-}
-
-#footer-fir {
-    float: right;
-    margin-right: 30px;
-    font-size: 14px;
-    line-height: 40px;
-}
-
-#footer-sec {
-    float: left;
-    margin-left: 30px;
-    font-size: 14px;
-    line-height: 40px;
+    border-bottom: 1px solid #dadce0;
 }
 
 .thi-fir-footer {
@@ -186,7 +173,53 @@ a:visited {
     padding-left: 27px;
 }
 
+#footer-fir {
+    float: right;
+    color: rgba(0,0,0,.54);
+    margin-right: 30px;
+    font-size: 14px;
+    line-height: 40px;
+}
+
+#footer-sec {
+    float: left;
+    margin-left: 30px;
+    font-size: 14px;
+    line-height: 40px;
+}
+
 .footer-a {
+    display: inline-block;
+    color: rgba(0,0,0,.54);
     padding-left: 27px;
     margin: 0 !important;
+    text-decoration: none;
+    white-space: nowrap;    
+}
+
+.footer-b {
+    display: inline-block;
+    color: rgba(0,0,0,.54);
+    padding-right: 27px;
+    margin: 0 !important;
+    text-decoration: none;
+    white-space: nowrap;    
+}
+
+#footer-fir-style {
+    margin-right: 5px;
+    position: relative;
+    display: none;
+    width: 16px !important;
+    background-size: contain !important;
+    top: 1px;
+}
+
+#footer-sec-style {
+    margin-right: 5px;
+    position: relative;
+    display: none;
+    width: 16px !important;
+    background-size: contain !important;
+    top: 1px;
 }
