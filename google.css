@@ -12,9 +12,15 @@ body,html {
 }
 
 .headerInfo {
+    color: #202124;
     text-align: center;
     text-decoration: none;
     padding: 15px;
+}
+
+a.headerInfo:hover {
+    text-decoration: underline;
+    border-bottom: #202124;
 }
 
 .menuBar_setting_icon {
