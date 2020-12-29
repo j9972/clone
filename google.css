@@ -190,7 +190,7 @@ a:visited {
 
 .footer-a {
     display: inline-block;
-    color: rgba(0,0,0,.54);
+    color: #70757a;
     padding-left: 27px;
     margin: 0 !important;
     text-decoration: none;
@@ -199,7 +199,7 @@ a:visited {
 
 .footer-b {
     display: inline-block;
-    color: rgba(0,0,0,.54);
+    color: #70757a;
     padding-right: 27px;
     margin: 0 !important;
     text-decoration: none;
