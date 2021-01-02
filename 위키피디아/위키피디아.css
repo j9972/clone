@@ -1,5 +1,27 @@
 body, html {
     margin: 0;
+    font-family: sans-serif;
+}
+
+html {
+    font-size: 100%;
+}
+
+div {
+    display: block;
+}
+
+#my-page-base {
+    background-color: #fbfbfb;
+    background-image: linear-gradient(to bottom, #ffffff 50%, #f6f6f6 100%);
+    background-position: bottom left;
+    height: 5em;
+}
+
+#my-head-base {
+    margin-left: 11em;
+    margin-top: -5em;
+    height: 5em;
 }
 
 .my-logo {
@@ -7,7 +29,6 @@ body, html {
 }
 
 .my-wiki-logo {
-    margin: 25px;
     height: 150px;
     width: 150px;
 }
