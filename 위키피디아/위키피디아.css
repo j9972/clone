@@ -11,6 +11,16 @@ div {
     display: block;
 }
 
+a:not([href]) {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: #0645ad;
+    background: none;
+}
+
 #my-page-base {
     background-color: #fbfbfb;
     background-image: linear-gradient(to bottom, #ffffff 50%, #f6f6f6 100%);
@@ -22,6 +32,58 @@ div {
     margin-left: 11em;
     margin-top: -5em;
     height: 5em;
+}
+
+.my-body {
+    margin-top: -1px;
+    border: 1px solid #a7d7f9;
+    border-right-width: 0;
+}
+
+.my-body, #my-data-after-content {
+    background-color: #ffffff;
+    color: #202122;
+    direction: ltr;
+    padding: 1em;
+}
+
+.my-body, .parsoid-body {
+    background-color: #ffffff;
+    color: #202122;
+    direction: ltr;
+    padding: 1em;
+}
+
+#content {
+    margin-left: 10em;
+}
+
+.my-body-content {
+    line-height: 1.6;
+    z-index: 0;
+}
+
+#siteNotice {
+    position: relative;
+    text-align: center;
+    margin: 0;
+    font-size: 0.8em;
+}
+
+#siteNoticeLocal {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+.my-notice-close2 {
+    position: relative;
+    top: 0px;
+    right: 7px;
+    margin-left: 5px;
+    text-align: right;
+    float: right;
+    visibility: visible;
 }
 
 .my-logo {
