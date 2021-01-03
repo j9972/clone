@@ -21,6 +21,14 @@ a {
     background: none;
 }
 
+img {
+    vertical-align: middle;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+}
+
 #my-page-base {
     background-color: #fbfbfb;
     background-image: linear-gradient(to bottom, #ffffff 50%, #f6f6f6 100%);
