@@ -94,6 +94,11 @@ img {
     visibility: visible;
 }
 
+#xbutton {
+    width: 30px;
+    height: 30px;
+}
+
 .my-logo {
     display: inline-block;
 }
