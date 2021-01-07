@@ -106,6 +106,8 @@ h1,h2,h3,h4,h5,h6 {
 .my-body-content {
     line-height: 1.6;
     z-index: 0;
+    position: relative;
+    font-size: calc(1em * 0.875);
 }
 
 .my-body-content p {
@@ -171,6 +173,66 @@ h1,h2,h3,h4,h5,h6 {
     width: 106px;
 }
 
+#bodyContent::after {
+    clear: both;
+    content: '';
+    display: block;
+}
+
+#siteSub {
+    font-size: 92%;
+    display: block;
+}
+
+#contentSub, #contentSub2 {
+    font-size: 84%;
+    line-height: 1.2em;
+    margin: 0 0 1.4em, 1em;
+    color: #54595d;
+    width: auto;
+}
+
+.my-jump-link:not(:focus) {
+    display: block;
+    position: absolute !important;
+    clip: rect(1px,1px,1px,1px);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.my-content-ltr {
+    direction: ltr;
+}
+
+.my-parser-output .main-top {
+    padding: 0 1.5rem 0 0;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    background-image: url(../images/main-top-background-image.svg);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.my-parser-output .main-box {
+    background: #ffffff;
+    border: solid #c8ccd1;
+    border-radius: 2px;
+    border-width: 1px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.15);
+    padding: 0 0 0.5rem 0;
+}
+
+.my-parser-output .main-top-left {
+    flex: 3;
+    background-image: linear-gradient(to right, white 0%, white 33%, rgba(255,255,255,0));
+    padding: 1rem 0 1rem 1.5rem;
+}
+
 .my-logo {
     display: inline-block;
 }
@@ -178,4 +240,10 @@ h1,h2,h3,h4,h5,h6 {
 .my-wiki-logo {
     height: 150px;
     width: 150px;
+}
+
+/* 여기 밑의 css는 일단 가져온것 
+-> content div안에 bodyContent div 파트*/
+.page-위키백과_대문 #deleteconfirm, .page-위키백과_대문 #t-cite, .page-위키백과_대문 #footer-info-lastmod, .action-view.page-위키백과_대문 #siteSub, .action-view.page-위키백과_대문 #contentSub, .action-view.page-위키백과_대문 .firstHeading {
+    display: none !important;
 }
