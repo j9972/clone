@@ -4,7 +4,7 @@ const app = express();
 
 // create
 app.get('/jsy_blog_create', (req, res) => {
-    //res.send('반갑습니다.');
+    console.log('게시글 생성 페이지');
     
     // 파일을 보내는 방법 -> nodemon이 server 폴더가 아니라 client 폴더에서만 열림
     // 질문) index.js가 client폴더가 아닌 server폴더에서 실행하는 방법 -> 경로때문에 에러가 나는데 해결을 못했음
@@ -12,13 +12,15 @@ app.get('/jsy_blog_create', (req, res) => {
 })
 
 // upload
-app.post('/jsy_blog_upload', (req, res) => {
-    res.send('반갑습니다.');
+app.get('/jsy_blog_upload', (req, res) => {
+    console.log('게시글 수정 페이지');
+    res.sendFile(__dirname + '/index.html');
 })
 
 // delete
-app.post('/jsy_blog_delete', (req, res) => {
-    res.send('반갑습니다.');
+app.get('/jsy_blog_delete', (req, res) => {
+    console.log('게시글 삭제 페이지');
+    res.sendFile(__dirname + '/index.html');
 })
 
 // 8080은 port number
