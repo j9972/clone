@@ -12,7 +12,7 @@ app.get('/jsy_blog_create', (req, res) => {
 })
 
 // upload
-app.get('/jsy_blog_upload', (req, res) => {
+app.post('/jsy_blog_upload', (req, res) => {
     console.log('게시글 수정 페이지');
     res.sendFile(__dirname + '/index.html');
 })
