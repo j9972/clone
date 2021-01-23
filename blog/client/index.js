@@ -18,7 +18,7 @@ app.post('/jsy_blog_upload', (req, res) => {
 })
 
 // delete
-app.get('/jsy_blog_delete', (req, res) => {
+app.post('/jsy_blog_delete', (req, res) => {
     console.log('게시글 삭제 페이지');
     res.sendFile(__dirname + '/index.html');
 })
